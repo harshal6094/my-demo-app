@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+/* @import "~@angular/material/prebuilt-themes/pink-bluegrey.css"; */
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.format-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.view {
+  min-height: 85vh;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.625px;
+}

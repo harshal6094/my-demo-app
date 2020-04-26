@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "my-demo-project-a7518": {
+      "hosting": {
+        "my-demo-app": [
+          "my-demo-project-a7518"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<footer class="">
+  <!-- <p>footer works!</p> -->
+  <mat-toolbar color="primary" class="footer-copyright">
+    <mat-toolbar-row class="format-center">
+      <p>Write to us at: &nbsp;<a style="color:white"
+          href="mailto:harshalovhal11@gmail.com">sales@harshal_company.com</a></p>
+    </mat-toolbar-row>
+    <mat-toolbar-row class="format-center">
+      <button mat-button [routerLink]="['/privacypolicy']"> Privacy Policy | Terms of Service</button>
+    </mat-toolbar-row>
+    <mat-toolbar-row class="format-center">
+      <!--Copyright-->
+      © {{ currentYear }} harshal's bot.<mat-icon>chat_bubble_outline</mat-icon>&nbsp;
+      Harshal LLC. All rights reserved.
+      <!--/.Copyright-->
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+</footer>
